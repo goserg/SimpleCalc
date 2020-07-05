@@ -106,7 +106,7 @@ button:hover, button:focus {
 
 /*RESULT*/
 
-#Result, #Eval {
+#Result, #Input {
     background-color: white;
     text-align: right;
     font-size: 3rem;
@@ -117,8 +117,9 @@ button:hover, button:focus {
 }
 #Result {
     grid-area: 1 / 1 / auto / span 4;
+    font-weight: bold;
 }
-#Eval {
+#Input {
     grid-area: 2 / 1 / auto / span 4;
 }
 
