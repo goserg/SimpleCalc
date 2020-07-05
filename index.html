@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calc</title>
+</head>
+<body>
+    <div class="back">
+        <div class="calc">
+            <div id="Result">100</div>
+            <div id="Eval">50+50</div>
+
+            <button id="Clear" class="operator" onclick="clear_all()">C</button>
+            <button id="Divide" class="operator" onclick="input_action('/')">&#247;</button>
+            <button id="Multiply" class="operator" onclick="input_action('*')">&#215;</button>
+            <button id="BackSpace" class="operator" onclick="backspace()">BS</button>
+            <button id="Seven" class="number" onclick="input('7')">7</button>
+            <button id="Eight" class="number" onclick="input('8')">8</button>
+            <button id="Nine" class="number" onclick="input('9')">9</button>
+            <button id="Minus" class="operator" onclick="input_action('-')">-</button>
+            <button id="Four" class="number" onclick="input('4')">4</button>
+            <button id="Five" class="number" onclick="input('5')">5</button>
+            <button id="Six" class="number" onclick="input('6')">6</button>
+            <button id="Plus" class="operator" onclick="input_action('+')">+</button>
+            <button id="One" class="number" onclick="input('1')">1</button>
+            <button id="Two" class="number" onclick="input('2')">2</button>
+            <button id="Tree" class="number" onclick="input('3')">3</button>
+            <button id="Equal" class="operator" onclick="calculate()">=</button>
+            <button id="Zero" class="number" onclick="input('0')">0</button>
+            <button id="Dot" class="number" onclick="input('.')">.</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
