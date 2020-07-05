@@ -123,3 +123,13 @@ button:hover, button:focus {
     grid-area: 2 / 1 / auto / span 4;
 }
 
+
+@media (max-width: 700px) {
+    body, .back {
+        padding: 0;
+    }
+    .calc {
+        width: 100vw;
+        height: 100vh;
+    }
+}
